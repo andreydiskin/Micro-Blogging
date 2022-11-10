@@ -16,4 +16,5 @@ In addition, there is a profile page for manipulating and editing user data.<br/
 <br/>
 <img src="https://i.postimg.cc/9XS2Fm0C/screenshot1.png" width="850"/>
 <br/>
+<br/>
 <img src="https://i.postimg.cc/7Z1rVSVZ/screenshot2.png" width="850"/>
