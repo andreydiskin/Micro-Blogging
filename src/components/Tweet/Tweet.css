@@ -1,0 +1,66 @@
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.tweetMsg {
+  background: #343a40;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+p.card-text {
+  width: 455px;
+  word-wrap: break-word;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  white-space: pre-wrap;
+  color: #ffffff;
+}
+
+div.card-title.h5,
+.card-subtitle.h6 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #6c757d;
+}
+
+p.card-text,
+div.card-title.h5 {
+  margin-left: 20px;
+}
+
+div.card-title.h5 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.card-subtitle.h6 {
+  margin-top: 18px;
+  margin-left: 110px;
+  margin-bottom: 0 !important;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 700px) {
+  .tweetMsg {
+    width: 90vw !important;
+  }
+
+  .card-text {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+
+  .tweetMsg {
+    width: 100vw !important;
+  }
+}
+

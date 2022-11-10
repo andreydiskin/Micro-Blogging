@@ -1,0 +1,204 @@
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* In the beginning of each page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background: #15202b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row > * {
+  max-width: none;
+}
+
+.navbar {
+  width: 1076px;
+  height: 58px;
+  background: #343a40;
+  border-radius: 6px;
+  margin-left: 182px;
+}
+
+.nav-link a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 35.87px;
+}
+
+.nav-link:hover a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.card-header {
+  margin-top: 52px;
+  margin-left: 369px;
+  margin-bottom: 26px !important;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff !important;
+}
+
+.form-text {
+  margin-left: 368px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.form-control {
+  margin-left: 367px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  width: 600px !important;
+  height: 61px;
+  border: 2px solid #cccccc !important;
+  border-radius: 6px !important;
+  background: #15202b !important;
+  box-shadow: none !important;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff !important;
+}
+
+.customBtn {
+  width: 68px;
+  height: 34px;
+  background: #007bff;
+  border-radius: 4px;
+  border: none;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 889px;
+
+  color: #ffffff;
+}
+
+.sign-out {
+  margin-left: 750px;
+  border-radius: 5px;
+  font-family: "Roboto";
+}
+.sign-out-more {
+  margin-left: 842px;
+  border-radius: 5px;
+  font-family: "Roboto";
+}
+
+.profile-pic {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.no-tweets {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto";
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1350px) {
+  .navbar {
+    margin: auto;
+    width: 800px !important;
+  }
+  .me-auto.navbar-nav {
+    width: fit-content !important;
+    width: 700px;
+  }
+  .sign-out {
+    margin-left: 450px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    width: 600px !important;
+    margin: auto;
+  }
+  .me-auto.navbar-nav {
+    width: fit-content !important;
+    width: 400px;
+  }
+  .sign-out {
+    margin: auto;
+    font-size: 12px;
+    width: 65px;
+
+    margin-left: 275px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    width: 500px !important;
+  }
+  .me-auto.navbar-nav {
+    width: 400px !important;
+  }
+  .sign-out {
+    height: 50%;
+    margin-left: 150px !important;
+  }
+  .tweetMsg {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .navbar {
+    margin: auto;
+  }
+}
+/* container */
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin: auto;
+    width: 500px !important;
+  }
+}
